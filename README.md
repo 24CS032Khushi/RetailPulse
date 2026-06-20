@@ -264,7 +264,7 @@ Place the downloaded file at `data/online_retail_II.xlsx` before running any not
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/RetailPulse.git
+git clone https://github.com/24CS032Khushi/RetailPulse.git
 cd RetailPulse
 ```
 
