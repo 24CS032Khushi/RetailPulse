@@ -511,7 +511,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👩‍💻 Author
 
-**Khushi Ka. Patel**
+**Khushi Ka.Patel**
 - 🎓 B.Tech Computer Science and Engineering
 - 🏢 Data Science & Analytics Intern @ Zidio Development
 - 📅 Internship Period: June 2026
