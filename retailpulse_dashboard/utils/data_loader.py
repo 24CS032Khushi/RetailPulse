@@ -17,11 +17,10 @@ import os
 
 # ── Path resolution ─────────────────────────────────────────────────────────────
 # utils/ -> retailpulse_dashboard/ -> RetailPulse/ (project root) -> data/
-_UTILS_DIR     = os.path.dirname(os.path.abspath(__file__))   # .../utils
-_DASHBOARD_DIR = os.path.dirname(_UTILS_DIR)                   # .../retailpulse_dashboard
-_ROOT_DIR      = os.path.dirname(_DASHBOARD_DIR)               # .../RetailPulse  (project root)
-DATA_DIR = r"C:\Users\khush\RetailPulse\RetailPulse\data"
-
+_UTILS_DIR = os.path.dirname(os.path.abspath(__file__))   # .../utils
+_DASHBOARD_DIR = os.path.dirname(_UTILS_DIR)             # .../retailpulse_dashboard
+_ROOT_DIR = os.path.dirname(_DASHBOARD_DIR)              # .../RetailPulse
+DATA_DIR = os.path.join(_ROOT_DIR, "data")
 
 def _safe_read(filename):
     """Load a CSV from the data directory; return None if the file doesn't exist."""
