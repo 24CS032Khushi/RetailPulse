@@ -305,7 +305,7 @@ if churn_df is not None and "ChurnProbability_Tuned" in churn_df.columns:
 
     st.dataframe(
         top_risk.style
-            .applymap(colour_risk, subset=["ChurnProbability_Tuned"])
+            .map(colour_risk, subset=["ChurnProbability_Tuned"])
             .format({"ChurnProbability_Tuned": "{:.1%}"}),
         use_container_width=True,
         height=380
